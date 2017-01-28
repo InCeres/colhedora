@@ -96,6 +96,6 @@ O projeto deve ser entregue com todas as instruções para ser instalado e execu
 
 É necessário fornecer algum tipo de feedback para indicar que a colheita está acontecendo.
 
-A velocidade da colheitadeira não faz parte do problema, mas fique a vontade para criar. Representar a colheitadeira se movendo no OpenLayers é um grande bônus ;)
+A velocidade da colheitadeira não faz parte do problema, mas fique a vontade para criar. Representar a colheitadeira se movendo no OpenLayers é um grande bônus :wink:
 
-Bom código e divirta-se!
+Bom código e divirta-se! :tractor:
