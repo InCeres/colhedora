@@ -37,7 +37,9 @@ Deve ser feito em Python e/ou Javascript.
 
 Faça testes unitários. Testes funcionais é um bônus.
 
-Use o Gitlab, crie sua conta caso não tenha, faça fork desse projeto e depois pe
+Use o Gitlab, crie sua conta caso não tenha, faça fork desse projeto, crie uma pasta com seu nome e faça sua implementação nela. Quando pronto, faça o merge request. Seus commits também serão analisados. É uma boa forma de ver seu fluxo de pensamento.
+
+Você tem 5 dias para terminar o teste.
 
 É possível usar qualquer lib externa que ajude a resolver o problema. Existem algorítmos prontos na internet para isso. Por favor, não os use. Precisamos que vc desenvolva seu próprio algorítmo.
 
@@ -47,5 +49,6 @@ O projeto deve ser entregue com todas as instruções para ser instalado e execu
 
 É necessário fornecer algum tipo de feedback para indicar que a colheita está acontecendo.
 
-A velocidade da colheitadeira não faz parte do problema.
+A velocidade da colheitadeira não faz parte do problema, mas fique a vontade para criar... ;)
 
+Bom código e divirta-se!
