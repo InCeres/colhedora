@@ -85,7 +85,7 @@ Essa imagem está no arquivo `desafio-inceres-colheitadeira.png` nessa pasta.
 * Use o Gitlab, crie sua conta caso não tenha, faça fork desse projeto, crie uma pasta com seu nome e faça sua implementação nela. Quando pronto, faça o merge request. Seus commits também serão analisados. É uma boa forma de ver seu fluxo de pensamento.
 * Você tem 5 dias para terminar o teste.
 * É possível usar qualquer lib externa que ajude a resolver o problema. Existem algorítmos prontos na internet para isso. Por favor, não os use. Precisamos que você desenvolva seu próprio algorítmo.
-* Você deve usar 100% OOP para esse desafio.
+* Você deve usar 100% OOP para esse desafio. Mostre que você gosta de Design Patterns. :sunglasses:
 * O projeto deve ser entregue com todas as instruções para ser instalado e executado.
 * É necessário fornecer algum tipo de feedback para indicar que a colheita está acontecendo.
 * A velocidade da colheitadeira não faz parte do problema, mas fique a vontade para criar. Representar a colheitadeira se movendo no OpenLayers é um grande bônus :wink:
