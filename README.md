@@ -16,8 +16,9 @@ O arquivo de saída do software deve contar a lista das coordenadas geográficas
 
 ```json
 [
-    {"lat": 43.998778,"lng": 22.887686,"value": 46.45},
-    {"lat": 43.000322,"lng": 22.887686,"value": 44.23}
+    {"lat": -22.550718, ,"lng": -47.720137,"value": 7.89},
+    {"lat": -22.550581,"lng": -47.719979,"value": 10.76},
+    {"lat": -22.550447 ,"lng": -47.719781,"value": 13.9}
 ]
 ```
     
@@ -37,7 +38,7 @@ A simulação do sensor de colheita deve estar dentro do intervalo de cada curva
 
 Essa imagem está no arquivo `desafio-inceres-colheitadeira.png` nessa pasta.
 
-<!-- ![](desafio-inceres-colheitadeira.png) -->
+![](desafio-inceres-colheitadeira.png)
 
 
 ### Coordenadas da área de colheita
