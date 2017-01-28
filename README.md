@@ -10,7 +10,7 @@ Queremos ver qualquer código, mesmo que não esteja atendendo 100% do problema.
 
 Nesse desafio, o objetivo é criar um arquivo com o resultado da colheita de uma área. Para isso, o software precisa ler do sensor de colheita e registrar a quantidade colhida para aquela área.
 
-Nossa colheitadeira possui módulos de colheita com larguras variáveis. A mais comum possui uma largura de 10 metros. Além disso, o sensor de acumula o resultado da colheita e libera esse valor a cada 10 metros percorridos pela colheitadeira fechando assim a área mínima de registro.
+Nossa colheitadeira possui módulos de colheita com larguras variáveis. A mais comum possui uma largura de 10 metros. Além disso, o sensor acumula o resultado da colheita e libera esse valor a cada 10 metros percorridos pela colheitadeira fechando assim a área mínima de registro.
 
 O arquivo de saída do software deve contar a lista das coordenadas geográficas dos centros das áreas mínimas e o valor colhido nessa área no seguinte formato:
 
@@ -23,13 +23,42 @@ O arquivo de saída do software deve contar a lista das coordenadas geográficas
 
 O sinal do GPS e a saída do sensor de colheitas devem ser simulados pela solução de qualquer maneira possível.
 
-A área de colheita é um polígono de 4 lados e estão definidos pelas coordenadas geográficas passadas.
+A área de colheita é um polígono de 4 lados e estão definidos pelas coordenadas geográficas passadas na seção Dados.
 
-A colheitadeira inicia o seu trabalho no canto superior esquerdo da área. Ao chegar no limte da área de colheita, ela seguirá no sentido oposto, uma faixa abaixo, seguindo assim até o final da área 
-
-Será fornecido um desenho representando a área de colheita.
+A colheitadeira inicia o seu trabalho no canto superior esquerdo da área (ponto A) e deve seguir em direção ao canto superior direito (ponto B). Ao chegar no limte da área de colheita, ela seguirá no sentido oposto, uma faixa abaixo, seguindo assim até o final da área.
 
 A simulação do sensor de colheita deve estar dentro do intervalo de cada curva de valor no desenho da área, sendo que as coordenadas que delimitam cada área também estão especificadas no desenho abaixo. Ou seja, se a colheitadeira estiver dentro de uma área cujo o intervalo está definido como 30-60 isso quer dizer que o valor da simulação colhida naquele quadrado deve ser um número qualquer entre 30 e 60.
+
+## Dados
+
+### Imagem
+
+Essa imagem está no arquivo `desafio-inceres-colheitadeira.png` nessa pasta.
+
+![](desafio-inceres-colheitadeira.png)
+
+
+### Coordenadas
+
+Ponto A: 22° 33' 2.686" S - 47° 43' 13.134" W
+Ponto B: 22° 32' 44.243" S - 47° 42' 48.881" W 
+Ponto C: 22° 32' 58.938" S - 47° 42' 44.014" W
+Ponto D: 22° 33' 13.421" S - 47° 43' 3.094" W
+
+Ponto A1: 22° 33' 2.970" S - 47° 43' 7.496" W
+Ponto B1: 22° 32' 52.591" S - 47° 42' 56.142" W
+Ponto C1: 22° 32' 57.941" S - 47° 42' 48.647" W
+Ponto D1: 22° 33' 7.787" S  - 47° 42' 59.926" W
+
+Ponto A2: 22° 33' 2.722" S - 47° 43' 5.218" W
+Ponto B2: 22° 32' 59.010" S - 47° 43' 1.009" W
+Ponto C2: 22° 33' 2.686" S - 47° 42' 55.908" W
+Ponto D2: 22° 33' 5.537" S - 47° 43' 0.930" W
+
+Ponto A3: 22° 32' 57.264" S - 47° 42' 58.187" W
+Ponto B3: 22° 32' 54.982" S - 47° 42' 55.872" W 
+Ponto C3: 22° 32' 58.117" S - 47° 42' 50.386" W 
+Ponto D3: 22° 33' 0.936" S - 47° 42' 53.438" W
 
 ## Considerações
 
