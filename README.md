@@ -24,13 +24,13 @@ O arquivo de saída do software deve contar a lista das coordenadas geográficas
     
 ## Regras
 
-O sinal do GPS e a saída do sensor de colheitas devem ser simulados usando qualquer recurso de software que você quiser.
+1. O sinal do GPS e a saída do sensor de colheitas devem ser simulados usando qualquer recurso de software que você quiser.
 
-A área de colheita é um polígono de 4 lados e estão definidos pelas coordenadas geográficas passadas na seção Dados.
+2. A área de colheita é um polígono de 4 lados e estão definidos pelas coordenadas geográficas passadas na seção Dados.
 
-A colheitadeira inicia o seu trabalho no canto superior esquerdo da área (ponto A) e deve seguir em direção ao canto superior direito (ponto B). Ao chegar no limte da área de colheita, ela seguirá no sentido oposto, uma faixa abaixo, seguindo assim até o final da área.
+3. A colheitadeira inicia o seu trabalho no canto superior esquerdo da área (ponto A) e deve seguir em direção ao canto superior direito (ponto B). Ao chegar no limte da área de colheita, ela seguirá no sentido oposto, uma faixa abaixo, seguindo assim até o final da área.
 
-A simulação do sensor de colheita deve estar dentro do intervalo de cada curva de valor no desenho da área, sendo que as coordenadas que delimitam cada área também estão especificadas no desenho abaixo. Ou seja, se a colheitadeira estiver dentro de uma área cujo o intervalo está definido como 30-60 isso quer dizer que o valor da simulação colhida naquele quadrado deve ser um número qualquer entre 30 e 60.
+4. A simulação do sensor de colheita deve estar dentro do intervalo de cada curva de valor no desenho da área, sendo que as coordenadas que delimitam cada área também estão especificadas no desenho abaixo. Ou seja, se a colheitadeira estiver dentro de uma área cujo o intervalo está definido como 30-60 isso quer dizer que o valor da simulação colhida naquele quadrado deve ser um número qualquer entre 30 e 60.
 
 ## Dados
 
@@ -80,22 +80,16 @@ Essa imagem está no arquivo `desafio-inceres-colheitadeira.png` nessa pasta.
 
 ## Considerações
 
-Deve ser feito em Python e/ou Javascript.
+* Deve ser feito em Python e/ou Javascript.
+* Faça testes unitários. Testes funcionais é um bônus.
+* Use o Gitlab, crie sua conta caso não tenha, faça fork desse projeto, crie uma pasta com seu nome e faça sua implementação nela. Quando pronto, faça o merge request. Seus commits também serão analisados. É uma boa forma de ver seu fluxo de pensamento.
+* Você tem 5 dias para terminar o teste.
+* É possível usar qualquer lib externa que ajude a resolver o problema. Existem algorítmos prontos na internet para isso. Por favor, não os use. Precisamos que você desenvolva seu próprio algorítmo.
+* Você deve usar 100% OOP para esse desafio.
+* O projeto deve ser entregue com todas as instruções para ser instalado e executado.
+* É necessário fornecer algum tipo de feedback para indicar que a colheita está acontecendo.
+* A velocidade da colheitadeira não faz parte do problema, mas fique a vontade para criar. Representar a colheitadeira se movendo no OpenLayers é um grande bônus :wink:
 
-Faça testes unitários. Testes funcionais é um bônus.
+## Bom código e divirta-se!
 
-Use o Gitlab, crie sua conta caso não tenha, faça fork desse projeto, crie uma pasta com seu nome e faça sua implementação nela. Quando pronto, faça o merge request. Seus commits também serão analisados. É uma boa forma de ver seu fluxo de pensamento.
-
-Você tem 5 dias para terminar o teste.
-
-É possível usar qualquer lib externa que ajude a resolver o problema. Existem algorítmos prontos na internet para isso. Por favor, não os use. Precisamos que você desenvolva seu próprio algorítmo.
-
-Você deve usar 100% OOP para esse desafio.
-
-O projeto deve ser entregue com todas as instruções para ser instalado e executado.
-
-É necessário fornecer algum tipo de feedback para indicar que a colheita está acontecendo.
-
-A velocidade da colheitadeira não faz parte do problema, mas fique a vontade para criar. Representar a colheitadeira se movendo no OpenLayers é um grande bônus :wink:
-
-Bom código e divirta-se! :tractor:
+:tractor:
