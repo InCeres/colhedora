@@ -2,7 +2,7 @@
 
 ## Objetivos
 
-O principal objetivo desse teste é entender o seu mindset e como vc busca solucionar problemas complexos com restrições definidas.
+O principal objetivo desse teste é entender o seu mindset e como você busca solucionar problemas complexos com restrições definidas.
 
 Queremos ver qualquer código, mesmo que não esteja atendendo 100% do problema.
 
@@ -24,7 +24,7 @@ O arquivo de saída do software deve contar a lista das coordenadas geográficas
     
 ## Regras
 
-O sinal do GPS e a saída do sensor de colheitas devem ser simulados pela solução de qualquer maneira possível.
+O sinal do GPS e a saída do sensor de colheitas devem ser simulados usando qualquer recurso de software que você quiser.
 
 A área de colheita é um polígono de 4 lados e estão definidos pelas coordenadas geográficas passadas na seção Dados.
 
@@ -88,7 +88,7 @@ Use o Gitlab, crie sua conta caso não tenha, faça fork desse projeto, crie uma
 
 Você tem 5 dias para terminar o teste.
 
-É possível usar qualquer lib externa que ajude a resolver o problema. Existem algorítmos prontos na internet para isso. Por favor, não os use. Precisamos que vc desenvolva seu próprio algorítmo.
+É possível usar qualquer lib externa que ajude a resolver o problema. Existem algorítmos prontos na internet para isso. Por favor, não os use. Precisamos que você desenvolva seu próprio algorítmo.
 
 Você deve usar 100% OOP para esse desafio.
 
@@ -96,6 +96,6 @@ O projeto deve ser entregue com todas as instruções para ser instalado e execu
 
 É necessário fornecer algum tipo de feedback para indicar que a colheita está acontecendo.
 
-A velocidade da colheitadeira não faz parte do problema, mas fique a vontade para criar... ;)
+A velocidade da colheitadeira não faz parte do problema, mas fique a vontade para criar. Representar a colheitadeira se movendo no OpenLayers é um grande bônus ;)
 
 Bom código e divirta-se!
