@@ -1,18 +1,21 @@
 # Colheitadeira
 
-## Objetivos
+## Objetivo
 
-O principal objetivo desse teste é entender o seu mindset e como você busca solucionar problemas complexos com restrições definidas.
+O objetivo principal deste teste é descobrir como você pensa. Queremos entender como você busca solucionar problemas complexos, com restrições definidas.
 
-Queremos ver qualquer código, mesmo que não esteja atendendo 100% do problema.
+Mesmo que não consiga completar 100% o desafio, envie o seu código, queremos vê-lo mesmo assim. 
+
 
 ## Descrição
 
-Nesse desafio, o objetivo é criar um arquivo com o resultado da colheita de uma área. Para isso, o software precisa ler do sensor de colheita e registrar a quantidade colhida para aquela área.
+Neste desafio, o objetivo é criar um arquivo com o resultado da colheita de uma área. Para isso, o software precisa ler do sensor de colheita e registrar a quantidade colhida para aquela área.
 
-Nossa colheitadeira possui módulos de colheita com larguras variáveis. A mais comum possui uma largura de 10 metros. Além disso, o sensor acumula o resultado da colheita e libera esse valor a cada 10 metros percorridos pela colheitadeira fechando assim a área mínima de registro.
+Cada modelo de colheitadera possui uma largura diferente em que colhe uma plantação, como indica na figura abaixo. Porém, a mais comum possui é a de 10 metros. Além disso, o sensor acumula o resultado da colheita e libera esse valor a cada 10 metros percorridos pela colheitadeira fechando assim a área mínima de registro. Neste caso 10m x 10m.
 
-O arquivo de saída do software deve contar a lista das coordenadas geográficas dos centros das áreas mínimas e o valor colhido nessa área no seguinte formato:
+![](h_colheitadeira5_762x458.jpg)
+
+O arquivo de saída do software deve conter a lista das coordenadas geográficas dos centros das áreas mínimas e o valor colhido nessa área no seguinte formato:
 
 ```json
 [
@@ -80,15 +83,15 @@ Essa imagem está no arquivo `desafio-inceres-colheitadeira.png` nessa pasta.
 
 ## Considerações
 
-* Deve ser feito em Python e/ou Javascript.
-* Faça testes unitários. Testes funcionais é um bônus.
-* Use o Gitlab, crie sua conta caso não tenha, faça fork desse projeto, crie uma pasta com seu nome e faça sua implementação nela. Quando pronto, faça o merge request. Seus commits também serão analisados. É uma boa forma de ver seu fluxo de pensamento.
-* Você tem 5 dias para terminar o teste.
-* É possível usar qualquer lib externa que ajude a resolver o problema. Existem algorítmos prontos na internet para isso. Por favor, não os use. Precisamos que você desenvolva seu próprio algorítmo.
-* Você deve usar 100% OOP para esse desafio. Mostre que você gosta de Design Patterns. :sunglasses:
-* O projeto deve ser entregue com todas as instruções para ser instalado e executado.
-* É necessário fornecer algum tipo de feedback para indicar que a colheita está acontecendo.
-* A velocidade da colheitadeira não faz parte do problema, mas fique a vontade para criar. Representar a colheitadeira se movendo no OpenLayers é um grande bônus :wink:
+* Deve ser feito em Python e/ou Javascript;
+* Faça testes unitários. Testes funcionais é um bônus;
+* Use o Gitlab, crie sua conta caso não tenha, faça fork desse projeto, crie uma pasta com seu nome e faça sua implementação nela. Quando pronto, faça o merge request. Seus commits também serão analisados. É uma boa forma de ver seu fluxo de pensamento;
+* Você tem 7 dias para terminar o teste;
+* É possível usar qualquer lib externa que ajude a resolver o problema. Existem algorítmos prontos na internet para isso. Por favor, não os use. Precisamos que você desenvolva seu próprio algorítmo;
+* Você deve usar 100% OOP para esse desafio. Mostre que você gosta de Design Patterns; :sunglasses:
+* O projeto deve ser entregue com todas as instruções para ser instalado e executado;
+* É necessário fornecer algum tipo de feedback para indicar que a colheita está acontecendo;
+* A velocidade da colheitadeira não faz parte do problema, mas fique a vontade para criar. Representar a colheitadeira se movendo no OpenLayers é um grande bônus. :wink:
 
 ## Bom código e divirta-se!
 
