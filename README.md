@@ -86,7 +86,7 @@ Essa imagem está no arquivo `desafio-inceres-colheitadeira.png` nessa pasta.
 * Deve ser feito em Python e/ou Javascript;
 * Faça testes unitários. Testes funcionais é um bônus;
 * Use o Gitlab, crie sua conta caso não tenha, faça fork desse projeto, crie uma pasta com seu nome e faça sua implementação nela. Quando pronto, faça o merge request. Seus commits também serão analisados. É uma boa forma de ver seu fluxo de pensamento;
-* Você tem 5 dias para terminar o teste;
+* Você tem 7 dias para terminar o teste;
 * É possível usar qualquer lib externa que ajude a resolver o problema. Existem algorítmos prontos na internet para isso. Por favor, não os use. Precisamos que você desenvolva seu próprio algorítmo;
 * Você deve usar 100% OOP para esse desafio. Mostre que você gosta de Design Patterns; :sunglasses:
 * O projeto deve ser entregue com todas as instruções para ser instalado e executado;
