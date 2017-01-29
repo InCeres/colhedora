@@ -2,18 +2,18 @@
 
 ## Objetivo
 
-O objetivo principal deste teste é entender o seu mindset. Queremos entender como você busca solucionar problemas complexos com restrições definidas.
+O objetivo principal deste teste é descobrir como você pensa. Queremos entender como você busca solucionar problemas complexos, com restrições definidas.
 
-Mesmo que não consiga completar 100% o desafio, envie o seu código, queremos vê-lo mesmo assim.
+Mesmo que não consiga completar 100% o desafio, envie o seu código, queremos vê-lo mesmo assim. 
 
 
 ## Descrição
 
 Neste desafio, o objetivo é criar um arquivo com o resultado da colheita de uma área. Para isso, o software precisa ler do sensor de colheita e registrar a quantidade colhida para aquela área.
 
-Cada modelo de colheitadera possui uma largura diferente em que colhe uma cultura, como indica na figura abaixo. Mas, a mais comum possui uma largura de 10 metros. Além disso, o sensor acumula o resultado da colheita e libera esse valor a cada 10 metros percorridos pela colheitadeira fechando assim a área mínima de registro.
+Cada modelo de colheitadera possui uma largura diferente em que colhe uma plantação, como indica na figura abaixo. Porém, a mais comum possui é a de 10 metros. Além disso, o sensor acumula o resultado da colheita e libera esse valor a cada 10 metros percorridos pela colheitadeira fechando assim a área mínima de registro. Neste caso 10m x 10m.
 
-![](desafio-inceres-colheitadeira.png)
+![](h_colheitadeira5_762x458.jpg)
 
 O arquivo de saída do software deve conter a lista das coordenadas geográficas dos centros das áreas mínimas e o valor colhido nessa área no seguinte formato:
 
