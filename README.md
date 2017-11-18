@@ -85,7 +85,7 @@ Essa imagem está no arquivo `desafio-inceres-colhedora.png` nessa pasta.
 
 * Deve ser feito em Python e/ou Javascript;
 * Faça testes unitários. Testes funcionais é um bônus;
-* Use o Gitlab, crie sua conta caso não tenha, faça fork desse projeto e torne ele privado (é de graça no GitLab). Adicione o nosso usuário (inceres-team) como membro do projeto para acompanharmos. Quando pronto, nos avise que iremos fazer nosso code review. Seus commits também serão analisados. É uma boa forma de ver seu fluxo de pensamento;
+* Use um Git, crie sua conta caso não tenha, faça fork desse projeto e nos avise para acompanharmos. Quando pronto, nos avise que iremos fazer nosso code review. Seus commits também serão analisados. É uma boa forma de ver seu fluxo de pensamento;
 * Você tem 7 dias para terminar o teste;
 * É possível usar qualquer lib externa que ajude a resolver o problema. Existem algorítmos prontos na internet para isso. Por favor, não os use. Precisamos que você desenvolva seu próprio algorítmo;
 * Você deve usar 100% OOP para esse desafio. Mostre que você gosta de Design Patterns; :sunglasses:
