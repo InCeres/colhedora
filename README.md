@@ -19,9 +19,9 @@ O arquivo de saída do software deve conter a lista das coordenadas geográficas
 
 ```json
 [
-    {"lat": -22.550718, ,"lng": -47.720137,"value": 7.89},
-    {"lat": -22.550581,"lng": -47.719979,"value": 10.76},
-    {"lat": -22.550447 ,"lng": -47.719781,"value": 13.9}
+    {"lat": -22.550718, "lng": -47.720137, "value": 7.89},
+    {"lat": -22.550581, "lng": -47.719979, "value": 10.76},
+    {"lat": -22.550447, "lng": -47.719781, "value": 13.9}
 ]
 ```
     
